@@ -18,7 +18,7 @@ function Navbar() {
       <nav className={`${styles.navbar}`}>
         {/*logo*/}
         <a href="#home" className={`${styles.logo}`}>
-          Hope2Heal
+          <img src='../../public/Logo1.png'/>
         </a>
         <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
           <li onClick={removeActive}>
