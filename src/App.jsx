@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import './styles/About.css'
 import Navbar from './components/Navbar.jsx'
 
 const App = () => {
@@ -43,7 +44,14 @@ const App = () => {
         </div>
 
         </div>
-
+        
+        <div id="about">
+          <p>
+          HOPE2HEAL WAS STARTED BY THREE HIGH SCHOOLERS IGNITED BY A PASSION TO SPREAD CANCER AWARENESS AMONG 
+          THE COMMUNITY THEY LIVE IN
+          </p>
+          <img src='patient1.png'/>
+        </div>
 
 
       </section>

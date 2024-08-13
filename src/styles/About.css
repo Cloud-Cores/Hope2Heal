@@ -1,0 +1,17 @@
+#about {
+    height: 300px;
+    width: 80%;
+    padding: 2rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#about p {
+    font-size: 2rem;
+    font-weight: 700;
+    width: 40%;
+    color: white;
+    text-align: center;
+}
