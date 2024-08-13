@@ -1,20 +1,15 @@
 import React from 'react'
 import './App.css'
+import Navbar from './components/Navbar.jsx'
 
 const App = () => {
   return (
+    <>
+    <Navbar />
     <div>
       <section className="first">
         <div>
           <img id="hero-img"src="hope2healmain.png" alt="hope2heal" />
-        </div>
-        <div className="card-container">
-          <div className="card">
-          <img id="card" src="welcome_card.png" alt="hope2heal" />
-          <div className="card-content">
-          <a href="" className="main-btn">Who Are We?</a>
-          </div>
-        </div>
         </div>
       </section>
       <section className="second">
@@ -56,6 +51,7 @@ const App = () => {
           <img id="footer" src="hope2healfooter.png" alt="hope2heal" />
       </section>
     </div>
+    </>
   )
 }
 
