@@ -1,20 +1,16 @@
 import React from 'react'
 import './App.css'
+import './styles/About.css'
+import Navbar from './components/Navbar.jsx'
 
 const App = () => {
   return (
+    <>
+    <Navbar />
     <div>
       <section className="first">
         <div>
           <img id="hero-img"src="hope2healmain.png" alt="hope2heal" />
-        </div>
-        <div className="card-container">
-          <div className="card">
-          <img id="card" src="welcome_card.png" alt="hope2heal" />
-          <div className="card-content">
-          <a href="" className="main-btn">Who Are We?</a>
-          </div>
-        </div>
         </div>
       </section>
       <section className="second">
@@ -48,7 +44,14 @@ const App = () => {
         </div>
 
         </div>
-
+        
+        <div id="about">
+          <p>
+          HOPE2HEAL WAS STARTED BY THREE HIGH SCHOOLERS IGNITED BY A PASSION TO SPREAD CANCER AWARENESS AMONG 
+          THE COMMUNITY THEY LIVE IN
+          </p>
+          <img src='patient1.png'/>
+        </div>
 
 
       </section>
@@ -56,6 +59,7 @@ const App = () => {
           <img id="footer" src="hope2healfooter.png" alt="hope2heal" />
       </section>
     </div>
+    </>
   )
 }
 
